@@ -1,0 +1,89 @@
+/* >>Setting fonts of the project<< */
+
+/* Titles */
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Bold.ttf);
+}
+
+h1,h2,h3,h4,label{
+    font-family: Montserrat;
+}
+
+h4{
+    margin: 0px;
+}
+
+/* Text */
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-Regular.ttf);
+}
+
+p,a{
+    font-family: Nunito;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* Setting layout */
+
+body{
+    background-color:#C4C4C4;
+}
+
+div{
+    float: left;
+}
+
+.container{
+    position: relative;
+    width: 90vw;
+    min-height: 850px;
+    margin: 40px 5vw;
+    border-radius: 15px;
+    background-color:#ffff;
+}
+
+.options{
+    width: calc(70% - 40px);
+    padding: 30px 20px;
+    
+}
+
+.options > div{
+    width: calc(50% - 20px);
+    padding: 5px 10px;
+  
+}
+
+.car{
+    width: calc(30% - 30px);
+    padding: 30px 15px;
+}
+
+.chosen-options{
+    width: calc(100% - 70px);
+    padding: 0px 25px;
+}
+
+/* Car Image */
+img{
+    width: calc(100% - 70px);
+    padding: 35px;
+}
+
+
+/*hiding things*/
+
+/* 
+#model-select{
+    
+}
+
+*/
+
+

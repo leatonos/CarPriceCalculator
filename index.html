@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Car Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/select-style.css" rel="stylesheet">
+  <link href="css/checkbox-style.css" rel="stylesheet">
+  <script src="js/script.js"></script>
+</head>
+<body>
+
+<h1 class="text-center">Car Calculator</h1>
+<section class="container">
+    
+    <div class="options">
+        <!-- Here you can find the first set of options -->
+        <div>
+            <label for="brand">Choose a brand:</label><br>
+            <div class="select" id="brand-select"> 
+                <select name="brand" onchange="BrandChange()" id="brand">
+                    <option value="">Brand</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Tesla">Tesla</option>
+                </select>
+            </div>
+            <br>
+            <label for="model">Choose a model:</label><br>
+            <div class="select" id="model-select"> 
+                <select name="model" onchange="ModelChange()" id="model">
+                    <option value="">Model</option>
+                    <option value="Model3">Model3</option>
+                    <option value="Ecosport">Ecosport</option>
+                    <option value="Civic">Civic</option>
+                </select>
+            </div>
+            <br>
+            <label for="color">Choose a color:</label><br>
+            <div class="select" onchange="ColorChange()" id="color-select"> 
+                <select name="color" id="color">
+                    <option value="">Color</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Gray">Gray</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Here are the Accessories -->
+
+        <div onclick="GetAccessories()">
+            <label style="display: block;" for="">Accessories:</label><br>
+            <label class="check_container">Air Conditioner
+                <input type="checkbox" class="accessory" value="Air Conditioner">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="check_container">Electric Steering
+                <input type="checkbox"  class="accessory" value="Electric Steering">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="check_container">Automatic Transmission
+                <input type="checkbox" class="accessory" value="Automatic Transmission">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="check_container">Reverse Sensor
+                <input type="checkbox" class="accessory" value="Reverse Sensor">
+                <span class="checkmark"></span>
+              </label>
+        </div>
+
+    </div>
+
+    <!-- Here is the Car Image -->
+    <div class="car">
+
+        <img id="carImage" src="img/civic-black.webp">
+        
+    </div>
+
+    <div class="chosen-options">
+        <h4 style="display:inline-block">Brand: <span><p style="display:inline-block" id="txt-car-brand"></p></span></h4><br>
+        <h4 style="display:inline-block">Model: <span><p style="display:inline-block" id="txt-car-model"></p></span></h4><br>
+        <h4 style="display:inline-block">Color: <span><p style="display:inline-block" id="txt-car-color"></p></span></h4><br>
+        <h4 style="display:inline-block">Accessories: <span><p style="display:inline-block" id="txt-car-accessories"></p></span></h4><br>
+        <h4 style="display:inline-block">Price: <span><p style="display:inline-block" id="txt-car-price"></p></span></h4><br>
+    </div>
+  
+</section>
+  
+
+</body>
+</html>
+
