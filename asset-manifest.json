@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CarPriceCalculator/static/css/main.03974e3b.css",
+    "main.js": "/CarPriceCalculator/static/js/main.7fce96ce.js",
+    "static/js/787.8923c181.chunk.js": "/CarPriceCalculator/static/js/787.8923c181.chunk.js",
+    "static/media/civic-black.webp": "/CarPriceCalculator/static/media/civic-black.edbf50fa7b66cd600d8b.webp",
+    "index.html": "/CarPriceCalculator/index.html",
+    "main.03974e3b.css.map": "/CarPriceCalculator/static/css/main.03974e3b.css.map",
+    "main.7fce96ce.js.map": "/CarPriceCalculator/static/js/main.7fce96ce.js.map",
+    "787.8923c181.chunk.js.map": "/CarPriceCalculator/static/js/787.8923c181.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03974e3b.css",
+    "static/js/main.7fce96ce.js"
+  ]
+}
