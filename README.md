@@ -6,7 +6,7 @@ At first I did this project using only vanilla javascript. But now I am using Re
 
 ## Why I did this?
 
-This project was a homework for my mobile app development post-degree course, it was before I learn react.js, so I decided that it would be fun to recriate this project using react
+This project was a homework for my mobile app development post-degree course, it was before I learn react.js, so I decided that it would be fun to recreate this project using react
 
 ###How can I access this?
 
